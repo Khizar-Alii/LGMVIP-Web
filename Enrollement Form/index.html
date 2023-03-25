@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enrollment Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 style="text-align: center; background-color: cyan; opacity: 0.8;">Student Enrollment Form</h1>
+    <div id="container">
+        <form>
+            <div class="nameDiv">
+                <label for="name">Name</label>
+                <input type="text" name="name" id="name" required>
+            </div>
+            <div class="nameDiv">
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" required>
+            </div>
+            <div class="nameDiv">
+                <label for="website">Website</label>
+                <input type="text" name="website" id="web" required>
+            </div>
+            <div class="nameDiv">
+                <label for="image">Image Link</label>
+                <input type="text" name="image" id="img" required>
+            </div>
+            <div class="nameDiv">
+                <h3>Gender</h3>
+                <label>Male</label>
+                <input type="radio" value="male" name="gender" id="male" required>
+                <label>Female</label>
+                <input type="radio" value="female" name="gender" id="female" required>
+            </div>
+            <div class="nameDiv">
+                <h3>Skills</h3>
+                <label>HTML</label>
+                <input type="checkbox" value="HTML" name="skills" id="html">
+                <label>CSS</label>
+                <input type="checkbox" value="CSS" name="skills" id="css">
+                <label>JavaScript</label>
+                <input type="checkbox" value="JavaScript" name="skills" id="javascript">
+            </div>
+            <button id="submit" type="submit">Save</button>
+        </form>
+        <section id="output">
+            <h2 style="text-align: center; margin: 0; color: crimson;">Enrolled Students</h2>
+        </section>
+    </div>
+    <script src="./index.js"></script>
+</body>
+</html>

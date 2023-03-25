@@ -1,0 +1,118 @@
+*{
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90px;
+    background-color: #333;
+    border: 1px solid #ccc;;
+    padding: 20px;
+}
+header h2{
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: #ccc;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+nav ul{
+    list-style: none;
+}
+nav ul li{
+    display: inline-block;
+}
+nav ul li a{
+    text-decoration: none;
+    padding: 10px 20px;
+    color: #fff;
+    font-size: 16px;
+}
+nav ul li a:hover{
+    color: #ccc;
+}
+.main {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.main h2 {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+} 
+.main input{
+    padding: 10px;
+    font-size: 18px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    width: 70%;
+    margin-right: 10px;
+}
+  
+.main button {
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+  
+.main button:hover {
+    background-color: #3e8e41;
+}
+#myUl {
+    list-style-type: none;
+    margin:0;
+    padding: 0;
+}
+#myUl li{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+    padding: 12px;
+    background-color: #f9f9f9;
+    border-bottom:1px solid #ddd;
+    cursor: pointer;
+}
+
+#myUl li:last-child{
+    border-bottom: none;
+}
+#myUl li.checked {
+    background-color: #ccc;
+    color: #888;
+    text-decoration: line-through;
+} 
+#removeBTN{
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 16px;
+    background-color: #4CAF50;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+#removeBTN:hover{
+    background-color: #3e8e41;
+}
